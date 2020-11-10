@@ -1,0 +1,35 @@
+
+//be back before 1:15
+
+This keyword with constructors is used to call other constructors inside
+our constructors it can help reduce the amount of code
+if we have 100 lines of code we do not need this code in each constructor
+we can just put that code in a single constructor and we can call that
+constructor from other constructors
+
+Class ConsDemo{
+
+field 1
+field 2
+field 3
+field 4
+
+ConsDemo(){
+100 important lines of code
+}
+
+ConsDemo(field 1){
+this()
+}
+
+ConsDemo(field 1,field 2){
+this()
+}
+ConsDemo(field 1,field 2,field 3){
+this()
+}
+
+
+
+
+}

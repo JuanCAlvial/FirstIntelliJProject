@@ -1,0 +1,30 @@
+StringBuffer and StringBuilder
+
+What they have in common?
+1)Classes used to make modifications to Strings of characters
+2)Can be modified without leaving behind unused objects
+ex:
+//Immutable-State cannot change
+String s = "hello";
+s+=" world";//new object created
+System.out.println(s);
+--------------------------------------
+//Mutable-State can change
+StringBuffer sb= new StringBuffer("hello");
+sb.append( "world");//new object not created
+System.out.println(sb);
+
+Key Differences?
+StringBuffer
+1)Synchronized(thread-safe)
+2)Synchronized methods to control access so that only one thread can access a StringBuffer objects
+synchronized code at a time
+3)Slower than StringBuilder(Take more time)
+
+StringBuilder
+1)Non-synchronized(not thread safe)
+2)Does not contain synchronized methods
+3)Faster that StringBuffer
+
+Thread safe-- Code has ability to guarantee safe execution by multiple threads at the same time...
+

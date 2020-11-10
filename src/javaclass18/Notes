@@ -1,0 +1,80 @@
+Yet another type of variables
+1)local
+2)instance variable
+3)static variables
+
+Local Variable:
+Any variable that is declared inside a method or a block like while loop, for loop, if condition or
+inside the constructor are called local variables.
+Properties of local variables...
+1) we can't access them outside of the block
+for ex:
+if(2>1){
+int x=10 //This variables will not be accessible outside of the curly brackets of the if condition
+}
+x=20 CE...Compiler Error
+2)As soon as we are done with the method these local variables are destroyed and memory(RAM) is freed and available to be
+used by other programs. Which means they are very efficient in managing memories, that's why they are recommended
+over instance variables.
+
+Instance Variables: All of variables which are declared outside of the method or blocks or constructor
+but inside a class are called instance variables.
+Properties of Instance Variable:
+1) memory is allocated inside RAM as soon as object of that class is created and
+it says in the memory unless we are done with closing bracket.
+2) They are highly discouraged because they are not efficient in handling memory(RAM)
+
+Static Variables:
+They are declared outside of the method, constructor and blocks of codes with static keyword
+
+Access Modifiers:
+Access Modifiers are just keywords (Private public protected) that help use reduce the visibility of our
+variables and methods, so that no one else from other classes or packages can modify our data.
+Private:
+If we use Private access modifier with our variable or method we can only access that variable from the same class
+We use it to protect critical information, that we do not want to expose
+class Account{
+private int balance;
+
+void depositMoney(){
+if(properChannel, int money){
+
+balance=balance+money
+}
+}
+}
+
+class hacker{
+balance=100000;//CE Compiler Error
+}
+
+Default:
+This is not a keyword it is a behaviour which is assigned to the methods of properties automatically if we are
+not assigning any access modifier.
+
+class{
+String Car;
+
+}
+
+package 2
+class family{
+car="I am your little brother, i am using your car today, forgive i destroy it"
+}
+
+If we do not specify any modifiers behaviour will be assigned to our variables and methods and they will only
+be available within the same package
+
+public:
+if we declare our methods or instance variables we can access them from anywhere any package any class
+
+package1
+class{
+public String car;
+
+}
+
+package2
+class family{
+car="i am your just a random guy i am using your car today forgive i destroy it"
+}

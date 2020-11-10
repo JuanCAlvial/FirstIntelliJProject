@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$USER_HOME$/eclipse-workspace" includeSubdirectories="true" />
+      <file url="file://$PROJECT_DIR$/out/production/First IntelliJ Project/javaclass17/Main.class" />
+    </excludeFromCompile>
+  </component>
+</project>
