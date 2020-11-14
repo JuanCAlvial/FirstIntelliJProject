@@ -1,4 +1,4 @@
-package com;
+package com.syntax.ReviewStringBufferBuilder;
 
 public class stringBuilder {
     //Strings are immutable--> They cant be changed after creating.
