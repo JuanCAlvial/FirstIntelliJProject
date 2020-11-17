@@ -1,0 +1,33 @@
+Class:
+classes are blueprints/Templates/States/blovk of code....Thats helps us model a real life object such as, car/ bikes/
+computers/etc.
+Ex:
+We can have a Car class which can have properties and behaviours that can be used to build a specific model of car like
+Toyota, Subaru, Mazda...
+
+class NameOfClass{
+String model;
+String make;
+String color;
+int year;
+
+//behaviours of car
+void drive(){
+sout""
+}
+void switchGear(){
+sout""
+}
+void applyBrakes(){
+sout""
+}
+void drift(){
+
+}
+
+}
+In a class we can have fields/methods/constructors/initializer blocks
+
+what is the difference between a class and object?
+class is a blueprint
+obj is an instance of a class

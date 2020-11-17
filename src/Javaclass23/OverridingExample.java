@@ -31,7 +31,7 @@ class Chase extends Bank {
 
 }
 
-public class OverridingExample {
+public class    OverridingExample {
 
     public static void main(String[] args) {
         Chase chase = new Chase(1000);
